@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyptocoins Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <div class="container bg-black p-5 text-center">
+        <h1 style="color: aliceblue;">Cyptocurrencies Data Finder</h1>
+    </div>
+    <div class="container mt-5">
+        <label for="coins" class="fs-2">Choose a coin:</label>
+        <select id="coins" class="m-4 border border-dark border-3 rounded-2"  name="coins">
+            <option value="Qwsogvtv82FCd">Bitcoin</option>
+            <option value="razxDUgYGNAdQ">Ethereum</option>
+            <option value="HIVsRcGKkPFtW">Tether USD</option>
+            <option value="WcwrkfNI4FUAe">BNB</option>
+            <option value="aKzUVe4Hh_CON">USDC</option>
+            <option value="-l8Mn2pVlRs-p">XRP</option>
+            <option value="qzawljRxB5bYu">Cardano</option>
+            <option value="a91GCGd_u96cF">Dogecoin</option>
+            <option value="uW2tk-ILY0ii">Polygon</option>
+            <option value="zNZHO_Sjf">Solana</option>
+            <option value="Mtfb0obXVh59u">Wrapped Ether</option>
+            <option value="25W7FG7om">Polkadot</option>
+            <option value="VLqpJwogdhHNb">Chainlink</option>
+            <option value="qUhEFk1I61atv">TRON</option>
+            <option value="vSo2fu9iE1s0Y">Binance USD</option>
+            <option value="D7B1x_ks7WhV5">Litecoin</option>
+            <option value="xz24e0BjL">Shiba Inu</option>
+            <option value="dvUj0CzDZ">Avalanche</option>
+            <option value="MoTuySvg7">Dai</option>
+            <option value="x4WXHge-vvFY">Wrapped BTC</option>
+            <option value="_H5FVG9iW">Uniswap</option>
+            <option value="Knsels4_Ol-Ny">Cosmos</option>
+            <option value="67YlI0K1b">Toncoin</option>
+            <option value="CiixT63n3">Wrapped liquid staked Ether 2.0 </option>
+            <option value="3mVx2FX_iJFp5">Monero</option>
+            <option value="hnfQfsYfeIGUQ">Ethereum Classic</option>
+            <option value="aMNLwaUbY">Internet Computer (DFINITY)</option>
+            <option value="Pe93bIOD2">Lido DAO Token</option>
+            <option value="ZlZpzOJo43mIo">Bitcoin Cash</option>
+            <option value="f3iaFeCKEmkaZ">Stellar</option>
+            <option value="Z96jIvLU7">Immutable X</option>
+            <option value="ymQub4fuB">Filecoin</option>
+            <option value="1Uo6s62Oc">ARBITRUM</option>
+            <option value="DXwP4wF9ksbBO">Huobi Token</option>
+            <option value="jad286TjB">Hedera</option>
+            <option value="FEbS54wxo4oIl">VeChain</option>
+            <option value="Hm3OlynlC">Trust Wallet Token </option>
+            <option value="3nNpuxHJ8">Frax Share</option>
+            <option value="pxtKbG5rg">The Sandbox</option>
+            <option value="HGYj5JCv5">Aptos</option>
+            <option value="TpHE2IShQw-sJ">Algorand</option>
+            <option value="08CsQa-Ov">WEMIX Token</option>
+            <option value="7C4Mh4xy1yDel">Render Token </option>
+            <option value="SbWqqTui-">EnergySwap</option>
+            <option value="tEf7-dnwV3BXS">Decentraland</option>
+            <option value="65PHZTpmE55b">Cronos</option>
+            <option value="DCrsaMv68">NEAR Protocol</option>
+            <option value="bauj_21eYVwso">Quant</option>
+            <option value="JCKLgWPAF">Pax Dollar</option>
+            <option value="GSCt2y6YSgO26">Chiliz</option>
+        </select>
+    </div>
+    <div class="container mt-4">
+        <button class="btn btn-primary" id="submitUser" type="submit">Data</button>
+      </div>
+    <div class="container py-5"></div>
+     
+    <div class="container" id="data-list"></div>
+    <div class="p-4 mt-3">
+        
+    </div> 
+</body>
+</html>
