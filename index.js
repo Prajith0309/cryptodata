@@ -13,7 +13,6 @@ async function getdata(e){
   try{
     let value = await fetch(`https://api.coinranking.com/v2/coin/${inp}`, options)
     let nectval = await value.json()
-    console.log(nectval.data.coin)
     const data = document.querySelector('#data-list')
     data.innerHTML =`
     <div class="card card-body mb-3">
